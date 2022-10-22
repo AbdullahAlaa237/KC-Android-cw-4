@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#7074ff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <TextView
+        android:id="@+id/abdo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="624dp"
+        android:fontFamily="sans-serif-black"
+        android:text="calculator"
+        android:textAlignment="center"
+        android:textFontWeight="40"
+        android:textSize="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="259dp"
+        android:text="Calc"
+        android:background=""
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:textAlignment="center"
+
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="399dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="second number" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="503dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="first number"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/abdo2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="199dp"
+        android:fontFamily="sans-serif-black"
+        android:text="total"
+        android:textAlignment="center"
+        android:textFontWeight="40"
+        android:textSize="20dp"
+
+
+        />
+
+
+</RelativeLayout>
